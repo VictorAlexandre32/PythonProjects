@@ -3,7 +3,7 @@ list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
 list1 = ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R']
 list1.sort(reverse=True)
 for c in range(1, 18):
-    print("----------------- {0}ª rodada -----------------".format(c))
+    print(f"----------------- {c}ª rodada -----------------")
     print(list)
     print(list1)
     list[1], list1[0] = list1[0], list[1]
